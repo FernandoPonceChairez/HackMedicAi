@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.header p {
+    font-size: 14px;
+    color: #777;
+}
+
+.opciones label {
+    display: block;
+    background-color: #f0f0f0;
+    padding: 5px;
+    margin: 5px 1;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.opciones input[type="radio"] {
+    margin-right: 10px;
+}
+
+.opciones label.selected {
+    background-color: #00c853;
+    color: white;
+}
+
+.boton {
+    background-color: white;
+    border: 2px solid #00c853;
+    color: #00c853;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton.siguiente {
+    background-color: #00c853;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto; /* Esto lo centra */
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.boton.anterior {
+    background-color: #00c853;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto; /* Esto lo centra */
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #00a944;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto; /* Esto lo centra */
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#botones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.resultado {
+    margin-top: 20px;
+}
+
+#reiniciar {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto; /* Esto lo centra */
+    font-size: 16px;
+    cursor: pointer;
+}
