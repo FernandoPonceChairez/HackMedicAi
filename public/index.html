@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedicAi Diagnóstico</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Medic<span style="color: #00c853;">Ai</span></h1>
+            <p>A un click de tu bienestar</p>
+        </div>
+        <div id="pregunta-container">
+            <h2 id="pregunta"></h2>
+            <div id="opciones" class="opciones"></div>
+        </div>
+        <div id="botones">
+            <button id="anterior" class="boton anterior">Anterior</button>
+            <button id="siguiente" class="boton siguiente">Siguiente</button>
+        </div>
+        <div id="resultado" class="resultado" style="display:none;"></div>
+        <!-- Botón para reiniciar el diagnóstico, inicialmente oculto -->
+        <button id="reiniciar" class="boton" style="display:none;">Volver a realizar diagnóstico</button>
+    </div>
+
+    <!-- Archivo de script -->
+    <script src="/static/app.js"></script>
+
+</body>
+</html>
