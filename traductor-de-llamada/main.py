@@ -6,7 +6,7 @@ from google.cloud import texttospeech
 from pydub import AudioSegment
 import os
 
-
+//prueba
 
 def transcribe_audio(audio_file, language_code="en-US"):
     os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/Users/abraham/PycharmProjects/hack2024/credentials.json"
